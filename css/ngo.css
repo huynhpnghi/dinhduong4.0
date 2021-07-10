@@ -1,0 +1,180 @@
+@charset "utf-8";
+/* CSS Document */
+
+<style>
+	.nen
+	{
+	width: 100%;
+	height:4000px;
+	background-color: aqua;
+	margin: 0 auto;	
+	}
+	.menu
+	{
+		width: 100%;
+		height: 70px;
+		background-color: antiquewhite;
+		padding: 5px;
+		box-sizing: border-box;
+		
+		
+	}
+	.menu ul
+{
+	list-style: none;
+	
+	
+}
+ .menu ul li
+{
+	float: left;
+	padding: 10px 50px 10px 50px;
+	position: relative;
+}
+.menu ul li:hover
+{
+	background-color: forestgreen;
+}
+.menu ul li ul
+{
+	position: absolute;
+	top: 40px;
+	right: 0px;
+	visibility: hidden;
+}
+.menu ul li ul li
+{
+	width: 100px;
+	background-color: antiquewhite;
+}
+.menu ul li:hover ul
+{
+	visibility: visible;
+	
+	
+	
+}
+
+	.banner
+	{
+		width: 100%;
+		height: 400px;
+		background-color: blue;
+		
+		
+	}
+	
+	
+	
+	.bannera
+	{
+		width: 50%;
+		height: 400px;
+		background-color: ivory;
+		float: left;
+		
+		padding: 3%;
+		box-sizing:border-box;
+		
+		
+		
+	}
+button
+{
+  width: 200px;
+	height: 50px;
+	background-color:greenyellow;
+
+}
+.banner2
+	{
+	  width: 100%;
+	  height: 400px;
+	  background-color:green;
+		position: relative;
+		
+		
+		
+	}
+	.banner2a
+	{
+	  width: 40%;
+	  height: 300px;
+	  background-color:white;
+	  float: left;
+		position: absolute;
+		left: 100px;
+		top: 50px;
+		padding: 5px;
+		box-sizing: border-box;
+}
+   .banner2b
+	{
+	  width: 40%;
+	  height: 300px;
+	  background-color:white;
+	  float:right;
+		position: absolute;
+		right: 100px;
+		top: 50px;
+		padding: 5px;
+		box-sizing: border-box;
+			
+}
+		
+		
+	
+
+	.baner3
+{
+	width: 100%;
+	height: 400px;
+	background-color: brown;
+	position: relative;
+	
+	
+}
+ .baner4
+{
+	width: 100%;
+	height: 200px;
+	background-color: cadetblue;
+	padding: 20px;
+	box-sizing: border-box;
+	position: relative
+	
+}
+	
+	.baner4b
+{
+	width: 50%;
+	height: 200px;
+	background-color: white;
+	padding: 5px 20px 20px 20px;
+	box-sizing: border-box;
+	position: absolute;
+	top: 3px;
+	right: 20px;
+	
+}
+	.baner3a
+{
+	width: 40%;
+	height: 300px;
+	background-color: antiquewhite;
+	position: absolute;
+	top:50px;
+	left: 50px;
+}
+	.baner3b
+{
+	width: 40%;
+	height: 300px;
+	background-color: antiquewhite;
+	position: absolute;
+	top:50px;
+	right: 50px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+	</style>
